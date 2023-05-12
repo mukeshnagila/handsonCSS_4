@@ -1,0 +1,178 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.heading{
+    width: 100%;
+    background-image: linear-gradient(to right, red,green,yellow);
+    text-align: center;
+}
+
+.Bnav{
+    width: 98%;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+.nav{
+    width: 50%;
+    background-color: rgb(141, 181, 167);
+    border: 3px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+}
+
+.alldiv{
+    width: 99.7%;
+    border: 3px solid brown;
+    border-radius: 5px;
+}
+
+.contentbox{
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1{
+    width:400px;
+    height: 60px;
+    border-radius: 8px;
+    border: 3px solid green;
+    background-color: aqua;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contentbox2{
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2{
+    width:400px;
+    height: 60px;
+    border-radius: 8px;
+    border: 3px solid green;
+    background-color: aqua;
+    font-size: 18px;
+    text-align: center;
+}
+
+.heading2{
+    width: 100%;
+    background-image: linear-gradient(to right, red,yellow,red);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.space{
+    padding-top: 15px;
+    padding-bottom: 7px;
+}
+
+.bigdiv{
+    width: 99.3%;
+    height: 200px;
+    border: 5px solid green;
+    background-image: radial-gradient(ellipse, blue,green);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.Ubdiv{
+    width: 180px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: underline red;
+    border-radius: 10px;
+    color: red;
+    font-weight: bolder;
+    border: 3px solid red;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 1px solid black;
+    gap: 20px;
+}
+
+.griditem{
+    background-color: blueviolet;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.griditem1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: red;
+    color: azure;
+    padding-bottom: 20px;
+}
+
+.griditem2{
+    background-color: rgb(79, 206, 79);
+    color: azure;
+}
+
+.griditem3{
+    background-color: rgb(30, 101, 224);
+    color: azure;
+    font-size: 30px;
+    text-align: start;
+}
+
+.griditem4{
+    background-color: blueviolet;
+    color: azure;
+    font-size: 20px;
+    text-align: start;
+}
+
+.griditem5{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: rgb(17, 17, 17);
+    color: azure;
+    font-size: 20px;
+}
+
+ol{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.griditem6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: darkgoldenrod;
+    color: beige;
+    font-size: 20px;
+    text-align: start;
+}
+
+.griditem7{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: aquamarine;
+    color: black;
+    padding: 0%;
+}
+
